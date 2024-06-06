@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="duck_desc" />
+    <string name="waste_type_image" />
+</resources>
