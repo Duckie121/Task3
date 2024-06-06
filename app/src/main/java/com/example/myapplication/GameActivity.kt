@@ -123,12 +123,12 @@ class GameActivity : AppCompatActivity() {
 
         if (rubbishType == binType) {
             correctDrops++
-            Toast.makeText(this, "Đúng!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
 
             // Tăng số lần chơi đúng
             correctGames++
         } else {
-            Toast.makeText(this, "Sai!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Wrong!", Toast.LENGTH_SHORT).show()
         }
 
         totalDrops++
